@@ -21,6 +21,7 @@ function setFirstItemClassName(level, ul) {
 			currentFirstLi = ul.children[1]
 		}
 		setFirstItemClassName(level, currentFirstLi);
+
 	} else {
 		ul.style.backgroundColor = 'red';
 		ul.classList.add('first-item');
